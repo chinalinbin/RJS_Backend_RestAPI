@@ -604,7 +604,7 @@ payload_phoneServicePwd = {
 
 
 class PostCustomerInfo(unittest.TestCase):
-    """个人信息接口测试"""
+    """customerinfo test"""
 
     def setUp(self):
         self.url = "http://172.16.88.167:5959/xiangfa/borrowerRegular/v1/customerInfo.json"
